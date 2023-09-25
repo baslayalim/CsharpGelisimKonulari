@@ -49,6 +49,7 @@ C# Gelişim Konuları
 ● Matris Diziler
 
 ● Collections
+
 ● Regex nedir ve nasıl kullanılır ?
 
 ● Nesne Yönelimli Programlama
@@ -81,7 +82,7 @@ C# Gelişim Konuları
 
 ● Migrate HTTP handlers
 
-● Radis cach nedir, nasıl uygulanır ?
+● Redis cach nedir, nasıl uygulanır ?
 
 ● .net core Cors
 
