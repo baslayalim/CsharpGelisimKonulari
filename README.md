@@ -1,0 +1,2 @@
+# CsharpGelisimKonulari
+C# Gelişim Konuları
