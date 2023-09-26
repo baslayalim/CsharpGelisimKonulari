@@ -1,0 +1,79 @@
+Bir Program Geliştirirken Hangi Dil Olursa Olsun En Önemli Konu Değişken Kullanımıdır .
+
+Bilgisayarımızda bulunan RAM (Random Access Memory) üzerinde belirli adresler vardır. Bu adreslerde verilerimizi değişken adlı yapıda geçici olarak saklanız.
+
+Değişkenler, veri değerlerini depolamak için kullanılan veri tutucularıdır. Verilerin saklanması için değişkenlerin tanımlanması gerekmektedir.Değişken tanımlanırken kullanabileceğimiz farklı değişken türleri vardır. Programa girilecek verinin ne olduğuna bağlı olarak değişken türünü seçebiliriz.Örneğin; verinin "Hello world" olması durumda değişkeni sözel olarak tanımlamamız gerekir. Değişken tanımlamada bazı kurallara uymalıyız.
+ 
+
+Değişken Tanımlama
+Bir değişkeni oluşturmak için o değişkenin türünü (tipini) belirtmeli ona bir isim ve değer atamalısınız.
+
+(değişken tipi) (değişken adı) = (verinin değeri);
+şeklinde değerler tanımlanır.
+
+Değişken tipi
+Amaca uygun olarak farklı değişken tipleri vardır. 
+
+=> int: sayısal verileri depolar.
+
+int sayi = 5 ;
+=> string: metinsel ifadeleri depolar.
+
+string text= "hello world";
+=> bool: Değerleri "true" ya da "false" şeklinde iki farklı durumda saklar.
+
+bool myBool= false;
+=> float: ondalıklı sayıları saklar.
+
+float birinci_sayi= 2,6;
+=> char: tek karakteri depolar. örneğin; "a" ya da "A" 
+
+char harf= 'A';
+ 
+
+Değişken adı
+Değişken adı seçerken de uymamız gereken bazı koşullar vardır.
+
+=>Sayı ile başlayamaz.
+
+1sayi         sayi1
+
+=>Arada boşluk olmamalıdır. Gerekli durumlarda boşluk yerine "_" ifadesi kullanılmalıdır.
+
+birinci sayi         birinci_sayi
+
+=>Türkçe karakter içermemelidir.
+
+sayı           sayi
+
+=>Dile özgü anahtar kelimeler kullanılmamalıdır.
+
+for   switch
+
+=> Büyük-küçük harflere duyarlıdır. (hello ile HELLO farklı değişkeni tanımlar.)
+
+Değer tipi bellekte stack adı verilen bölümde saklanırken referans tipleri ise heap adı verilen bölümlerde saklanır.
+
+
+Tür	Adı	Boyut	Tanımı	En üst ve En alt değerleri
+
+Değer Tipleri	
+
+sbyte	1 Byte	 işaretli tamsayı	-128  ile 127
+short	2 Byte	işaretli tamsayı	-32.768 ile 32.767
+int	4 Byte	işaretli tamsayı	-2.147.483.648 ile 2.147.483.647
+long	8 Byte	işaretli tamsayı	-9.223.372.036.854.775.808 ile9.223.372.036.854.775.807
+byte	1 Byte	işaretsiz tamsayı	0 ile 255
+ushort	2 Byte	işaretsiz tamsayı	0 ile 65.535
+uint	4 Byte	işaretsiz tamsayı	0 ile 4.294.967.295
+ulong	8 Byte	işaretsiz tamsayı	0 ile 18.446.744.073.709.551.615
+float	4 Byte	tek kayan sayı	+yada – 1,5*10-45 : + ya da – 3,4*1038
+double	8 Byte	çift kayan sayı	+yada – 5*10-324 : + ya da – 1,7*10308
+decimal	16 Byte	ondalıklı sayı	+yada – 1,5*10-28 : + ya da – 7,9*1028
+bool	——-	——	true ya da false
+char	2 Byte	Unicode karakterler	U + u + ffff 0000
+
+Referans Tipleri	
+
+string	Değişken	Karakter Katarı	——-
+Object	Bütün veri tiplerinin türediği temel sınıf
