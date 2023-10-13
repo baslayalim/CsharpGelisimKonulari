@@ -2,9 +2,9 @@
 
 C# Gelişim Konuları
 
-✔ Değişken Tipleri
+✔ 001 Değişken Tipleri
 
-✔ Referans tipler ve Value tipler nelerdir, aralarındaki farklar
+✔ 002 Referans tipler ve Value tipler nelerdir, aralarındaki farklar
 
 ● class, partial class, struct ve record sınıflar nedir? Aralarındaki farklar
 
