@@ -1,0 +1,5 @@
+Class Nedir
+
+Projelerimizi gerçekleştirirken çeşitli özelliklerini, çözmemiz gereken problemlerini ve diğer işlemleri parçalara bölerek ilerlemek isteriz. Bu parçaları daha sonra birleştirerek projemizi bir bütün haline getiririz.
+Programlarımızın her bir aşaması için çeşitli durum ve özelliklerin yer aldığı, parçalayarak bir bütün elde etmeyi amaçladığımız bir görev kontrol sistemidir.
+
