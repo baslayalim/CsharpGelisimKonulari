@@ -6,3 +6,6 @@ Programlarımızın her bir aşaması için çeşitli durum ve özelliklerin yer
 Partial Class Nedir
 Büyük projelerde oluşturduğumuz class' lar zamanla okunması zor hale gelebilecek uzunlukta kod satırları ile dolabilmektedir. Partial class bize bir class' ı birden fazla class olarak bölmemize, constructor, değişken, property, metodları vs. düzenli bir şekilde ayrı ayrı oluşturmamızı sağlamaktadır. Fiziksel olarak birden fazla parça ile oluşan partial class' lar, çalışma zamanında tek bir class olarak bütün elemanları içerisinde barındırmaktadır.
 Partial class ile fiziksel olarak parça class'ların birleşmesi için class isimlerinin aynı olması gerekmektedir.
+
+Record Nedir
+Record (kayıt) nesnesi, değişmez (immutable) veri yapısıdır ve sadece verileri saklar. Record özellikle veri transfer nesneleri (data transfer objects – DTOs) veya veri saklama nesneleri (data storage objects) gibi yapılar için çok uygundur.
