@@ -92,4 +92,4 @@ C# Gelişim Konuları
 
 ● .net core MVC
 
-● .net core MVC View Components 
+● .net core MVC View Components
